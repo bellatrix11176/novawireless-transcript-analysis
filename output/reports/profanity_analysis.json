@@ -1,0 +1,54 @@
+{
+  "overall": {
+    "total_docs": 82335,
+    "docs_with_profanity": 33099,
+    "profanity_rate": 0.4020040080160321,
+    "avg_profanity_count": 0.7570049189287666
+  },
+  "by_target": {
+    "proxy_vs_true_gap": {
+      "positive_rate": 0.5360081175954365,
+      "negative_rate": 0.29548080486581935,
+      "positive_avg_count": 1.0542178587099604,
+      "negative_avg_count": 0.5207429530640274,
+      "positive_n": 36464,
+      "negative_n": 45871
+    },
+    "bandaid_credit": {
+      "positive_rate": 0.5542168674698795,
+      "negative_rate": 0.3875553546019123,
+      "positive_avg_count": 1.033762958811992,
+      "negative_avg_count": 0.7307339388539437,
+      "positive_n": 7138,
+      "negative_n": 75197
+    },
+    "repeat_contact_30d": {
+      "positive_rate": 0.5301023290853161,
+      "negative_rate": 0.3712766918651929,
+      "positive_avg_count": 1.045137798982987,
+      "negative_avg_count": 0.6878896485257356,
+      "positive_n": 15929,
+      "negative_n": 66406
+    },
+    "scenario_clean": {
+      "rate": 0.16651980026168922,
+      "avg_count": 0.23175518705439396,
+      "n": 37449
+    },
+    "scenario_gaming": {
+      "rate": 0.5444245676803816,
+      "avg_count": 1.0123235937189425,
+      "n": 10062
+    },
+    "scenario_fraud": {
+      "rate": 0.6397471554993679,
+      "avg_count": 1.3294563843236409,
+      "n": 19775
+    },
+    "scenario_ambiguous": {
+      "rate": 0.580370788756728,
+      "avg_count": 1.141138946109376,
+      "n": 15049
+    }
+  }
+}
